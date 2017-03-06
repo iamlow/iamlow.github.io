@@ -6,18 +6,41 @@ categories: develop
 ---
 - C/C++
   - Boost, C++11/14, thread, mutex, once_flag, lock_guard
-  - FFmpeg, avformat, avcodec, avutil, avfilter
+  - FFmpeg, avformat, avcodec, avutil, avfilter. librtmp,
   - CMake, Premake
   - ZeroMQ
+  - Android NDK, SWIG
+  - GCC
+  - CppChecker, Valgrind
 - Java
   - JVM
   - Spring Framework, Spring Boot, DI, AOP, @Autowired
   - DropWizard
+  - Swagger
   - Hibernate, JPA
   - RabbitMQ
-  - Lombok
+  - Lombok, Guava
+  - Maven, Gradle
+  - Grooby, Scala
 - JavaScript
   - Prototype
   - Angularjs, reactjs, nodejs
 - OOP, Design Pattern
   - Singleton, Factory
+- DBMS
+  - SQL
+  - Oracle, MySQL, PostgreSQL, H2, Sqlite
+- VCS
+  - Git, Mercurial, SVN
+- Collaboration
+  - Redmine, JIRA, Trello, Slack
+- Tool
+  - Visual Studio, Visual Studio Code, Sublime Text
+  - Atom, Vi
+  - Erwin
+  - VLC Player
+  - Eclipse, STS, CDT, mylyn
+  - IntelliJ
+  - Source Tree
+  - MinGW, Cygwin
+  - Jenkins
