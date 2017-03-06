@@ -34,6 +34,10 @@ categories: develop
   - Git, Mercurial, SVN
 - Collaboration
   - Redmine, JIRA, Trello, Slack
+- OS
+  - CentOS 6/7, RedHat, Ubuntu
+  - Solaris 11
+  - Windows
 - Tool
   - Visual Studio, Visual Studio Code, Sublime Text
   - Atom, Vi
@@ -44,3 +48,5 @@ categories: develop
   - Source Tree
   - MinGW, Cygwin
   - Jenkins
+  - Docker
+  - Kafka
