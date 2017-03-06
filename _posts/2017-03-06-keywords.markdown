@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Keywords"
+date:   2017-03-06 15:11:00 +0900
+categories: develop
+---
+- C/C++
+  - Boost, C++11/14, thread, mutex, once_flag, lock_guard
+  - FFmpeg, avformat, avcodec, avutil, avfilter
+  - CMake, Premake
+  - ZeroMQ
+- Java
+  - JVM
+  - Spring Framework, Spring Boot, DI, AOP, @Autowired
+  - DropWizard
+  - Hibernate, JPA
+  - RabbitMQ
+  - Lombok
+- JavaScript
+  - Prototype
+  - Angularjs, reactjs, nodejs
+- OOP, Design Pattern
+  - Singleton, Factory
