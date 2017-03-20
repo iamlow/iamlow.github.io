@@ -12,7 +12,7 @@ categories: java
     - execute around pattern
     - example
     {% gist iamlow/63060f4819eb661b5833a22d0a057771 %}
-    <script src="https://gist.github.com/iamlow/63060f4819eb661b5833a22d0a057771.js"></script>
+    <!--script src="https://gist.github.com/iamlow/63060f4819eb661b5833a22d0a057771.js"></script-->
 - Default Method
 - Optional<T>, Pattern Matching
 - Behavior parameterization
