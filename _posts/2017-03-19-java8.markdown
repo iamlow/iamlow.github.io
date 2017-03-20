@@ -7,6 +7,11 @@ categories: java
 - Java 8
     - Stream API
     - Method Reference
-    - Lambda
+    - Lambda    
+        - functional interface
+        - function descriptor
+        - execute around pattern
     - Default Method
     - Optional<T>, Pattern Matching
+    - Behavior parameterization
+        - predicate
