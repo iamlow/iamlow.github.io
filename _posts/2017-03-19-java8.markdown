@@ -4,14 +4,41 @@ title:  "Java 8 Keywords"
 date:   2017-03-20 17:23:00 +0900
 categories: java
 ---
-- Java 8
-    - Stream API
-    - Method Reference
-    - Lambda    
-        - functional interface
-        - function descriptor
-        - execute around pattern
-    - Default Method
-    - Optional<T>, Pattern Matching
-    - Behavior parameterization
-        - predicate
+- Stream API
+- Method Reference
+- Lambda    
+    - functional interface
+    - function descriptor
+    - execute around pattern
+    - example
+    ```java
+    List<String> names = Arrays.asList(new String("Lambda"), new String("Hello"), new String("World!"), new String("Java"));
+
+    // Comparator
+    class StringLengthComparator implements Comparator<String> {
+        public int compare(String s1, String s2) {
+            return new Integer(s1.length()).compareTo(new Integer(s2.length()));
+        }
+    }
+    names.sort(new StringLengthComparator());
+
+    // anonymous class
+    names.sort(new Comparator<String> () {
+        public int compare(String s1, String s2) {
+            return new Integer(s1.length()).compareTo(new Integer(s2.length()));
+        }
+    });
+
+    // lambda
+    names.sort((String s1, String s2) -> new Integer(s1.length()).compareTo(new Integer(s2.length())));
+
+    // lambda
+    names.sort((s1, s2) -> new Integer(s1.length()).compareTo(new Integer(s2.length())));
+
+    // method reference
+    names.sort(Comparator.comparing(String::length));
+    ```
+- Default Method
+- Optional<T>, Pattern Matching
+- Behavior parameterization
+    - predicate
