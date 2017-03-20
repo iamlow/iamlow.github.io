@@ -11,7 +11,7 @@ categories: java
     - function descriptor
     - execute around pattern
     - example
-    ```java
+    {% highlight java %}
     List<String> names = Arrays.asList(new String("Lambda"), new String("Hello"), new String("World!"), new String("Java"));
 
     // Comparator
@@ -37,7 +37,7 @@ categories: java
 
     // method reference
     names.sort(Comparator.comparing(String::length));
-    ```
+    {% endhighlight %}
 - Default Method
 - Optional<T>, Pattern Matching
 - Behavior parameterization
