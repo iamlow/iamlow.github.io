@@ -11,9 +11,8 @@ categories: java
     - function descriptor
     - execute around pattern
     - example
-    {{ "{% highlight html linenos "}}%}
-    <div>this is some preformatted code</div>
-    {{ "{% endhighlight "}}%}
+    {% gist iamlow/63060f4819eb661b5833a22d0a057771 %}
+    <script src="https://gist.github.com/iamlow/63060f4819eb661b5833a22d0a057771.js"></script>
 - Default Method
 - Optional<T>, Pattern Matching
 - Behavior parameterization
