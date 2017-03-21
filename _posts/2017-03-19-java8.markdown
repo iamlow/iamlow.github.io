@@ -5,6 +5,8 @@ date:   2017-03-20 17:23:00 +0900
 categories: java
 ---
 - Stream API
+    - example
+    <script src="https://gist.github.com/iamlow/2b877d3a742c92b26a53cf20e2d8ea41.js"></script>
 - Method Reference
 - Lambda    
     - functional interface
