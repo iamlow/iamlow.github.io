@@ -17,4 +17,5 @@ categories: develop
   - Grails 예제를 테스트 하기 위하여 GGTS를 설치하였으나, 버전이 2.4라서 사용못함.
 -  Java 8 in Action
 
-  ![java8_in_action](http://image.kyobobook.co.kr/images/book/large/796/l9788968481796.jpg)
+  ![java8_in_action](http://image.kyobobook.co.kr/images/book/large/796/l9788968481796.jpg)  
+  - 5장 스트림활용까지 학습
